@@ -6,7 +6,7 @@ start = {}
 stop = {}
 circ = {1: 'Main', 2: 'Water', 3: 'Bed'}
 
-url = "https://www.google.com/calendar/ical/mkrasnay80%40gmail.com/public/basic.ics"
+url = "https://www.google.com/calendar/ical/<your cal>gmail.com/public/basic.ics"
 r = requests.get(url)
 #writing to file for troubleshooting only
 f = open('mycal.ics' , 'w')
